@@ -5,7 +5,7 @@ import { FaDiscord, FaRegCopyright, FaTelegramPlane } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 
 export default function Footer() {
-    const date: any = new Date().getFullYear()
+    const date: number = new Date().getFullYear()
     return (
         <footer className='bg-[#E4D6A9] -mt-2 z-20 relative py-10'>
             <div className="flex flex-col gap-4 items-center justify-center">
